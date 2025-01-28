@@ -2,9 +2,9 @@
 
 
 int main() {
-    int a;
+      unsigned int a;
     scanf("%d",&a);
-    int low=a &(-a);
+    unsigned int low=a &(-a);
     printf("%d",low);
     return 0;
 }

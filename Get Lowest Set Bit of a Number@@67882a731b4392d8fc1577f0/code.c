@@ -2,7 +2,7 @@
 
 
 int main() {
-      unsigned int a;
+    unsigned int a;
     scanf("%d",&a);
     unsigned int low=a &(-a);
     printf("%u",low);

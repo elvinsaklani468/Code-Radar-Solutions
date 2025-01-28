@@ -6,7 +6,7 @@ int getl(int num){
     }
     while ((num&1)==0){
         num>>1;
-        pos++
+        pos++;
     }
     return pos;
 }

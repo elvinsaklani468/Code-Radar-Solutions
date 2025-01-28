@@ -2,7 +2,7 @@
 
 
 int main() {
-    int num,pos;
+    int num,pos=0;
     scanf("%d",&num);
     if(num==0){
         return -1;

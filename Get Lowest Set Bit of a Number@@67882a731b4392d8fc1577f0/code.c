@@ -5,7 +5,7 @@ int getl(int num){
         return -1;
     }
     while ((num&1)==0){
-        num>>1;
+        num>>=1;
         pos++;
     }
     return pos;

@@ -3,7 +3,7 @@ void dtob(int num){
     if(num>1){
         dteb(num/2);
     }
-    printf("%d",num&2);
+    printf("%d",num%2);
 
 }
 int main(){

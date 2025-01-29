@@ -4,7 +4,6 @@ void dtob(int num){
         dtob(num/2);
     }
     printf("%d",num%2);
-
 }
 int main(){
     int num;

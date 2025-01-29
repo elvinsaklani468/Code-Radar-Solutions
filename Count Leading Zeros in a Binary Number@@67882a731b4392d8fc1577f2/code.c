@@ -6,7 +6,7 @@ int cc(unsigned int num){
         c++;
         mask >>=1;
     }
-    return 0;
+    return c;
 }
 int main() {
     unsigned int num;

@@ -11,6 +11,6 @@ int cc(unsigned int num){
 int main() {
     unsigned int num;
     scanf("%u",&num);
-    printf("%u ",cc(num));
+    printf("%d",cc(num));
     return 0;
 }

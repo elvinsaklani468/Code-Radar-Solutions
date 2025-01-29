@@ -4,6 +4,6 @@ int main() {
     int num;
     scanf("%d",&num);
     int flip= ~num;
-    printf("%d",num);
+    printf("%d",flip);
     return 0;
 }

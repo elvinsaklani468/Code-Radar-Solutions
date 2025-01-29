@@ -1,5 +1,5 @@
 #include <stdio.h>
-void dteb(int num){
+void dtob(int num){
     if(num>1){
         dteb(num/2);
     }

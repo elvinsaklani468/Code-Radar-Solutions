@@ -2,7 +2,7 @@
 
 int main() {
     int a;
-    scanf("%a",&a);
+    scanf("%d",&a);
     if(a==1900){
         printf("Not a Leap Year");
     }

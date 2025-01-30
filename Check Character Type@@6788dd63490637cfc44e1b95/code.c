@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char a
+    char a;
     char str1[]={a,e,i,o,u};
     if(a==str1){
         printf("Vowel");

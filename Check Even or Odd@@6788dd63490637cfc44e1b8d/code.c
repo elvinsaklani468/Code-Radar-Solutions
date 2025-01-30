@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    float a;
-    scanf("%f",&a);
-    if(2%a==0){
+    int a;
+    scanf("%d",&a);
+    if(a % 2==0){
         printf("Even");
     }else{
         printf("Odd");

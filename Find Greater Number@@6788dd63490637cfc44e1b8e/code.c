@@ -7,8 +7,6 @@ int main() {
         printf("%d", a);
     }else if(b>a){
         printf("%d", b);
-    }else(a==b){
-        printf("%d",b);
     }
 
     return 0;

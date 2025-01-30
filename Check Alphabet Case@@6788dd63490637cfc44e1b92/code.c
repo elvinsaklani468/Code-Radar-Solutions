@@ -12,10 +12,6 @@ int main() {
     else {
         printf("Not an alphabet");
     }
-
-    
-  a=97
-  A=65+
     
     return 0;
 }

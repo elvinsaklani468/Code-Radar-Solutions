@@ -9,7 +9,7 @@ int main(){
             break;
         }
     }
-    else(num==a){
+    if(num==a){
         printf("Prime");
     }
     return 0;

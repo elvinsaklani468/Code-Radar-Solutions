@@ -9,17 +9,22 @@ int main() {
         case '+':
         result=a+b;
         printf("%d",result);
+        break;
         case '-':
         result=a-b;
         printf("%d",result);
+        break;
         case '*':
         result=a*b;
         printf("%d",result);
+        break;
         case '/':
         result=a/b;
         printf("%d",result);
+        break;
         default:
         printf("Invalid Operator");
+        break;
     }    
 
     return 0;

@@ -5,7 +5,7 @@ int main() {
     scanf("%d %d",&a ,&b);
     char ch;
     scanf(" %c", &ch);
-    switch(ch){
+    switch (ch){
         case '+':
         result=a+b;
         printf("%d",result);
@@ -22,7 +22,7 @@ int main() {
         result=a/b;
         printf("%d",result);
         break;
-    default:
+        default:
         printf("Invalid Operator");
         break;
     }    

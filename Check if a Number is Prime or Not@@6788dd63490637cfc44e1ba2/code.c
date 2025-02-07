@@ -13,8 +13,5 @@ int main(){
     if(num==a){
         printf("Prime");
     }
-    else{
-        printf("");
-    }
     return 0;
 }

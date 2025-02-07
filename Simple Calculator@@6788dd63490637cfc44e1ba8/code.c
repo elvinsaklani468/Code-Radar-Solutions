@@ -21,7 +21,7 @@ int main() {
         if (b != 0)  // Checking division by zero
                 printf("%d", a / b);
             else
-                printf("Error: Division by zero is not allowed.\n");
+                printf("error");
             break;
         default:
         printf("Invalid Operator");

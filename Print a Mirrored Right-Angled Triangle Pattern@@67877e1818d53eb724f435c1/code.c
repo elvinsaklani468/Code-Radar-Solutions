@@ -2,7 +2,7 @@
 int main(){
     int rows;
     scanf("%d",&rows);
-    int k=rows;
+    int k=rows-1;
     for(int r=1;r<=rows;r++){
         for(int x=k;x>=1;x--){
             printf(" ");

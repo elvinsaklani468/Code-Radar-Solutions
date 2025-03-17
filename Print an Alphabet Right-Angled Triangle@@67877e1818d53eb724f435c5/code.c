@@ -6,6 +6,7 @@ int main(){
         for(int c=r;c<=1;c++){
             printf("%c",65);
         }
+        printf("\n");
     }
     return 0;
 }

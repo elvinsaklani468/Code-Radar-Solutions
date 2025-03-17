@@ -4,6 +4,7 @@ int main(){
     for(int r=1;r<=rows;r++){
         for(int c=1;c<=r;c++){
             printf("%d",f);
+            f++;
         }
     }
     return 0;

@@ -8,9 +8,9 @@ int main(){
         }
         else{
             for(int c=0;c<=r;c++){
-                printf("%d",c);
+                printf("%d ",c);
             }
-        }
+        }printf("\n");
     }
 
 

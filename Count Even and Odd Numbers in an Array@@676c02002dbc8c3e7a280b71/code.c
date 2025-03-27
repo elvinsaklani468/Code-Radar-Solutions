@@ -11,7 +11,7 @@ int main(){
         if(arr[i] % 2==0) even++;
         else odd++;
     }
-    print("%d %d",even ,odd);
+    printf("%d %d",even ,odd);
 
 
 

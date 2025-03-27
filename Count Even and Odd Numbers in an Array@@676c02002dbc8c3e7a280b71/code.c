@@ -14,18 +14,6 @@ int main(){
     printf("%d %d",even ,odd);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    return 0:
+    return 0;
 
 }

@@ -5,7 +5,7 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-
+    }
     int max=0;
     for(int i=0;i<n;i++){
         if(arr[i]>max){
@@ -25,5 +25,7 @@ int main(){
             printf("%d %d\n",i ,freq[i]);
         }
     }
+
     return 0;
+
 }

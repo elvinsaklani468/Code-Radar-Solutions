@@ -17,7 +17,7 @@ int main(){
     for(int i=0;i<max+1;i++){
         freq[i]=0;
     }
-    for(int i=0;i<max;i++){
+    for(int i=0;i<n;i++){
         freq[arr[i]]++;
     }
     for(int i=0;i<n;i++){

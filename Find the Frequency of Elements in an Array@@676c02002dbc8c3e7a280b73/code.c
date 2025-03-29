@@ -20,7 +20,7 @@ int main(){
     for(int i=0;i<n;i++){
         freq[arr[i]]++;
     }
-    for(int i=0;i<=max;i++){
+    for(int i=0;i<n;i++){
         if(freq[arr[i]]>0){
             printf("%d %d\n",i ,freq[i]);
         }

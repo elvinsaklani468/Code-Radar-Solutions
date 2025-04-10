@@ -19,7 +19,8 @@ int main(){
             if(even[i]> max) 
             max = even[i];
         }
-        printf("%d",max);
+        
     }
+    printf("%d",max);
     return 0;
 }

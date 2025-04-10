@@ -9,9 +9,13 @@ int main(){
             even[e++]=arr[i];
         }
     }
+    int max=even[0];
     for(int i=0;i<e;i++){
         if(e==0) printf("-1");
-        else printf("%d",even[e-1]);
+        if(even[i]> max) {
+            max = even[i];
+        }
+        printf("%d",max);
     }
     return 0;
 }

@@ -10,15 +10,14 @@ int main(){
         }
     }
     int max=even[0];
-    for(int i=0;i<e;i++){
-        if(e==0){
+     if(e==0){
             printf("-1");
             return 0;
-        }
-        else{ 
-            if(even[i]> max) 
+    }
+    for(int i=0;i<e;i++){
+       
+             if(even[i]> max) 
             max = even[i];
-        }
         
     }
     printf("%d",max);

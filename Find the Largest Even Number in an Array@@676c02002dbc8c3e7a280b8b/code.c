@@ -11,7 +11,6 @@ int main(){
         if(arr[i] % 2 ==0)
         arr[i]=max;
         {printf("%d",max);}
-        else printf
     }
     
 

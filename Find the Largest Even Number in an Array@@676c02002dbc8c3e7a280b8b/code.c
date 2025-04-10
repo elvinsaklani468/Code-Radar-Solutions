@@ -8,9 +8,12 @@ int main(){
     }
     int max;
     for(int i=0;i<n;i++){
-        if(arr[i] % 2 ==0) printf("%d",arr[i] = max);
-        else printf("-1");
+        if(arr[i] % 2 ==0)
+        arr[i]=max;
+        {printf("%d",max);}
+        else printf
     }
+    
 
 
 
